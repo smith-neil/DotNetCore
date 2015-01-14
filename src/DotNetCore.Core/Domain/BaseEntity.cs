@@ -2,7 +2,7 @@
 
 namespace DotNetCore.Core.Domain
 {
-    public abstract class BaseEntity
+    public abstract class BaseEntity : IIdentifiable<int>
     {
         public int Id { get; set; }
 
