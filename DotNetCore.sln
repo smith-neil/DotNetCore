@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D4FA028-BA2B-4B31-B095-190DE987B2DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A11B4BDA-21EE-486F-A50B-A526C4A0D311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Core", "src\DotNetCore.Core\DotNetCore.Core.csproj", "{A896DE80-D7F2-4C73-B6F7-D4DC121B406A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
 	EndGlobalSection
 EndGlobal
