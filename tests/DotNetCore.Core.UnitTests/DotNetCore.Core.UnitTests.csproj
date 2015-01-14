@@ -38,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\CollectionUtilsTests.cs" />
     <Compile Include="Utilities\ExceptionUtilsTests.cs" />
   </ItemGroup>
   <ItemGroup>
