@@ -4,14 +4,12 @@ namespace DotNetCore.Core.Security.Models
 {
     public class Role
     {
-         public Role() {
+        public Role() 
+        {
             Users = new List<UserRole>();
         }
 
-        public int Id {
-            get;
-            set;
-        }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 

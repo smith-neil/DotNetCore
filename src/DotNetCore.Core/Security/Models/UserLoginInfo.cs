@@ -6,7 +6,8 @@
 
         public string ProviderKey { get; set; }
 
-        public UserLoginInfo(string loginProvider, string providerKey) {
+        public UserLoginInfo(string loginProvider, string providerKey) 
+        {
             LoginProvider = loginProvider;
             ProviderKey = providerKey;
         }

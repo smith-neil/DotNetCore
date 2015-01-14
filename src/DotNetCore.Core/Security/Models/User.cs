@@ -5,7 +5,8 @@ namespace DotNetCore.Core.Security.Models
 {
     public class User
     {
-        public User() {
+        public User() 
+        {
             Claims = new List<UserClaim>();
             Roles = new List<UserRole>();
             Logins = new List<UserLogin>();
