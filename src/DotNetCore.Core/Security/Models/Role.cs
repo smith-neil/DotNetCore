@@ -13,6 +13,6 @@ namespace DotNetCore.Core.Security.Models
 
         public string Name { get; set; }
 
-        public virtual ICollection<UserRole> Users { get; private set; }
+        public ICollection<UserRole> Users { get; private set; }
     }
 }
