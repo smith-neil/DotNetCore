@@ -39,6 +39,7 @@
     <Compile Include="Shared\IIdentifiable.cs" />
     <Compile Include="Utilities\CollectionUtils.cs" />
     <Compile Include="Utilities\ExceptionUtils.cs" />
+    <Compile Include="Utilities\IIdentifiableUtils.cs" />
     <Compile Include="Utilities\ILogger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
