@@ -9,7 +9,7 @@ namespace DotNetCore.Core.UnitTests.Utilities
     {
         [TestCase(null, null)]
         [TestCase("paramName", "message")]
-        public void ThrowIfNull_ThrowsNull(string paramName, string message)
+        public void ThrowIfNull_ThrowsWhenNull(string paramName, string message)
         {
             string nullThing = null;
 
@@ -18,7 +18,7 @@ namespace DotNetCore.Core.UnitTests.Utilities
 
         [TestCase(null, null)]
         [TestCase("paramName", "message")]
-        public void ThrowIfNull_DoesNotThrow(string paramName, string message)
+        public void ThrowIfNull_DoesNotThrowWhenNotNull(string paramName, string message)
         {
             string notNullThing = "im not null";
 
