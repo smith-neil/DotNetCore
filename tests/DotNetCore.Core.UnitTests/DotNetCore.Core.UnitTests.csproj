@@ -40,6 +40,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\CollectionUtilsTests.cs" />
     <Compile Include="Utilities\ExceptionUtilsTests.cs" />
+    <Compile Include="Utilities\IIdentifiableUtilsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
