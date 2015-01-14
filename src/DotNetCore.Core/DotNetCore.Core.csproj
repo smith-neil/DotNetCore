@@ -36,6 +36,16 @@
   <ItemGroup>
     <Compile Include="Domain\BaseEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Models\AuthenticationDescription.cs" />
+    <Compile Include="Security\Models\ExternalLoginInfo.cs" />
+    <Compile Include="Security\Models\AuthResult.cs" />
+    <Compile Include="Security\Models\Role.cs" />
+    <Compile Include="Security\Models\User.cs" />
+    <Compile Include="Security\Models\UserClaim.cs" />
+    <Compile Include="Security\Models\UserLogin.cs" />
+    <Compile Include="Security\Models\UserLoginInfo.cs" />
+    <Compile Include="Security\Models\UserRole.cs" />
+    <Compile Include="Security\SignInStatus.cs" />
     <Compile Include="Shared\IIdentifiable.cs" />
     <Compile Include="Utilities\CollectionUtils.cs" />
     <Compile Include="Utilities\ExceptionUtils.cs" />
