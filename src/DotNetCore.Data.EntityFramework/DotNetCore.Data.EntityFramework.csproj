@@ -71,9 +71,11 @@
   <ItemGroup>
     <Compile Include="BaseDbContext.cs" />
     <Compile Include="Conventions\ForeignKeyNamingConvention.cs" />
+    <Compile Include="EntityConfigurations\BaseEntityConfiguration.cs" />
     <Compile Include="Identity\AuthenticationManager.cs" />
     <Compile Include="Identity\BaseIdentityDbContext.cs" />
     <Compile Include="IDbContext.cs" />
+    <Compile Include="Identity\EntityConfigurations\IdentityConfigurations.cs" />
     <Compile Include="Identity\IdentityFactory.cs" />
     <Compile Include="Identity\Models\AppRole.cs" />
     <Compile Include="Identity\Models\AppUser.cs" />
