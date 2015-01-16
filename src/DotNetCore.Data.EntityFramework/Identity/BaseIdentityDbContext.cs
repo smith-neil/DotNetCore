@@ -7,6 +7,7 @@ using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
 using DotNetCore.Core.Domain;
 using DotNetCore.Core.Utilities;
+using DotNetCore.Data.EntityFramework.Identity.EntityConfigurations;
 using DotNetCore.Data.EntityFramework.Identity.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -36,6 +37,17 @@ namespace DotNetCore.Data.EntityFramework.Identity
             : base(nameOrConnectionString)
         {
             Database.Log = logger.Log;
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AppUser>().Configure();
+            modelBuilder.Entity<AppRole>().Configure();
+            modelBuilder.Entity<AppUserRole>().Configure();
+            modelBuilder.Entity<AppUserLogin>().Configure();
+            modelBuilder.Entity<AppUserClaim>().Configure();
+
+            base.OnModelCreating(modelBuilder);
         }
 
         public new IDbSet<TEntity> Set<TEntity>() where TEntity : BaseEntity
