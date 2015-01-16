@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDbContext.cs" />
+    <Compile Include="Conventions\ForeignKeyNamingConvention.cs" />
     <Compile Include="Identity\AuthenticationManager.cs" />
     <Compile Include="Identity\BaseIdentityDbContext.cs" />
     <Compile Include="IDbContext.cs" />
