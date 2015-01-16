@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Core", "src\DotN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Core.UnitTests", "tests\DotNetCore.Core.UnitTests\DotNetCore.Core.UnitTests.csproj", "{2896DA04-1289-4F51-A5F8-9D393130E890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Data.EntityFramework", "src\DotNetCore.Data.EntityFramework\DotNetCore.Data.EntityFramework.csproj", "{06FD36D2-E31E-4666-A400-45CF9700D08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Data.EntityFramework.UnitTests", "tests\DotNetCore.Data.EntityFramework.UnitTests\DotNetCore.Data.EntityFramework.UnitTests.csproj", "{E2E7FFA9-218E-4A9D-9459-6F6756514141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +29,22 @@ Global
 		{2896DA04-1289-4F51-A5F8-9D393130E890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2896DA04-1289-4F51-A5F8-9D393130E890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2896DA04-1289-4F51-A5F8-9D393130E890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FD36D2-E31E-4666-A400-45CF9700D08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FD36D2-E31E-4666-A400-45CF9700D08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FD36D2-E31E-4666-A400-45CF9700D08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FD36D2-E31E-4666-A400-45CF9700D08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
+		{06FD36D2-E31E-4666-A400-45CF9700D08D} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
 		{2896DA04-1289-4F51-A5F8-9D393130E890} = {A11B4BDA-21EE-486F-A50B-A526C4A0D311}
+		{E2E7FFA9-218E-4A9D-9459-6F6756514141} = {A11B4BDA-21EE-486F-A50B-A526C4A0D311}
 	EndGlobalSection
 EndGlobal
