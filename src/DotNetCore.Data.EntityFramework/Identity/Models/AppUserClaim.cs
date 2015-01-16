@@ -2,7 +2,7 @@
 
 namespace DotNetCore.Data.EntityFramework.Identity.Models
 {
-    public class AppUserClaim<T> : IdentityUserClaim<T>
+    public class AppUserClaim : IdentityUserClaim<int>
     {
     }
 }

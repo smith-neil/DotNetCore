@@ -2,7 +2,7 @@
 
 namespace DotNetCore.Data.EntityFramework.Identity.Models
 {
-    public class AppUserLogin<T> : IdentityUserLogin<T>
+    public class AppUserLogin : IdentityUserLogin<int>
     {
     }
 }

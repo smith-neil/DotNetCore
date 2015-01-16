@@ -2,7 +2,7 @@
 
 namespace DotNetCore.Data.EntityFramework.Identity.Models
 {
-    public class AppRole<T> : IdentityRole<T, AppUserRole<T>>
+    public class AppRole : IdentityRole<int, AppUserRole>
     {
     }
 }

@@ -12,7 +12,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace DotNetCore.Data.EntityFramework.Identity
 {
-    public abstract class BaseIdentityDbContext<T> : IdentityDbContext<AppUser<T>, AppRole<T>, T, AppUserLogin<T>, AppUserRole<T>, AppUserClaim<T>>, IDbContext
+    public abstract class BaseIdentityDbContext : IdentityDbContext<AppUser, AppRole, int, AppUserLogin, AppUserRole, AppUserClaim>, IDbContext
     {
         private ObjectContext _objectContext;
         private DbTransaction _transaction;
