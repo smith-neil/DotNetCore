@@ -70,13 +70,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDbContext.cs" />
+    <Compile Include="Identity\AuthenticationManager.cs" />
     <Compile Include="Identity\BaseIdentityDbContext.cs" />
     <Compile Include="IDbContext.cs" />
+    <Compile Include="Identity\IdentityFactory.cs" />
     <Compile Include="Identity\Models\AppRole.cs" />
     <Compile Include="Identity\Models\AppUser.cs" />
     <Compile Include="Identity\Models\AppUserClaim.cs" />
     <Compile Include="Identity\Models\AppUserLogin.cs" />
     <Compile Include="Identity\Models\AppUserRole.cs" />
+    <Compile Include="Identity\OAuthProvider.cs" />
+    <Compile Include="Identity\RoleManager.cs" />
+    <Compile Include="Identity\UserManager.cs" />
+    <Compile Include="Identity\Utilities\IdentityModelFactory.cs" />
+    <Compile Include="Identity\Utilities\IdentityModelFactoryUtils.cs" />
     <Compile Include="PersistableRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryBuilder.cs" />
@@ -92,6 +99,7 @@
       <Name>DotNetCore.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
