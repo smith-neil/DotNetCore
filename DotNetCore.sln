@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Data.EntityFrame
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Data.EntityFramework.UnitTests", "tests\DotNetCore.Data.EntityFramework.UnitTests\DotNetCore.Data.EntityFramework.UnitTests.csproj", "{E2E7FFA9-218E-4A9D-9459-6F6756514141}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Infrastructure", "src\DotNetCore.Infrastructure\DotNetCore.Infrastructure.csproj", "{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2E7FFA9-218E-4A9D-9459-6F6756514141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A896DE80-D7F2-4C73-B6F7-D4DC121B406A} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
 		{06FD36D2-E31E-4666-A400-45CF9700D08D} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
+		{68EB9F38-CA6A-49C1-8DDA-BCE9531B212A} = {6D4FA028-BA2B-4B31-B095-190DE987B2DC}
 		{2896DA04-1289-4F51-A5F8-9D393130E890} = {A11B4BDA-21EE-486F-A50B-A526C4A0D311}
 		{E2E7FFA9-218E-4A9D-9459-6F6756514141} = {A11B4BDA-21EE-486F-A50B-A526C4A0D311}
 	EndGlobalSection
