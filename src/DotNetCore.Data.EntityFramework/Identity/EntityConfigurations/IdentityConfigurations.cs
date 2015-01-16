@@ -41,12 +41,5 @@ namespace DotNetCore.Data.EntityFramework.Identity.EntityConfigurations
                 .Property(m => m.Id)
                     .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
         }
-
-        public static void IgnorePhone(this EntityTypeConfiguration<AppUser> source)
-        {
-            source
-                .Ignore(m => m.PhoneNumber)
-                .Ignore(m => m.PhoneNumberConfirmed);
-        }
     }
 }
