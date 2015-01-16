@@ -75,6 +75,7 @@
     <Compile Include="Identity\AuthenticationManager.cs" />
     <Compile Include="Identity\BaseIdentityDbContext.cs" />
     <Compile Include="IDbContext.cs" />
+    <Compile Include="Identity\EntityConfigurations\IdentityConfigurationHelpers.cs" />
     <Compile Include="Identity\EntityConfigurations\IdentityConfigurations.cs" />
     <Compile Include="Identity\IdentityFactory.cs" />
     <Compile Include="Identity\Models\AppRole.cs" />
