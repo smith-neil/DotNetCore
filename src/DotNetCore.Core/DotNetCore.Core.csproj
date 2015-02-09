@@ -38,6 +38,8 @@
     <Compile Include="Data\Fluent\IQueryableRepository.cs" />
     <Compile Include="Data\Fluent\IQueryBuilder.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="Data\IReadOnlyRepository.cs" />
+    <Compile Include="Data\IRepositroy.cs" />
     <Compile Include="Domain\BaseEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\IAuthenticationManager.cs" />

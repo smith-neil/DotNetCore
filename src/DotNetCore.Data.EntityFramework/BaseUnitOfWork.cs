@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using DotNetCore.Core.Data;
+using DotNetCore.Core.Data.Fluent;
 using DotNetCore.Core.Utilities;
 
 namespace DotNetCore.Data.EntityFramework
