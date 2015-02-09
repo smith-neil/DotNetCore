@@ -34,9 +34,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\IPersistableRepository.cs" />
-    <Compile Include="Data\IQueryableRepository.cs" />
-    <Compile Include="Data\IQueryBuilder.cs" />
+    <Compile Include="Data\Fluent\IPersistableRepository.cs" />
+    <Compile Include="Data\Fluent\IQueryableRepository.cs" />
+    <Compile Include="Data\Fluent\IQueryBuilder.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
     <Compile Include="Domain\BaseEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

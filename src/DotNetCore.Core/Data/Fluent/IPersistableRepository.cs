@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DotNetCore.Core.Domain;
 
-namespace DotNetCore.Core.Data
+namespace DotNetCore.Core.Data.Fluent
 {
     public interface IPersistableRepository<in T> : IDisposable
         where T : BaseEntity

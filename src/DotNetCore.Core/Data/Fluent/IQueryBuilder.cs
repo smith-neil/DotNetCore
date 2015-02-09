@@ -2,7 +2,7 @@
 using System.Linq;
 using DotNetCore.Core.Domain;
 
-namespace DotNetCore.Core.Data
+namespace DotNetCore.Core.Data.Fluent
 {
     public interface IQueryBuilder<out T, out TQueryBuilder> : IQueryable<T>, IQueryable
         where T : BaseEntity
