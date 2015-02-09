@@ -88,9 +88,9 @@
     <Compile Include="Identity\UserManager.cs" />
     <Compile Include="Identity\Utilities\IdentityModelFactory.cs" />
     <Compile Include="Identity\Utilities\IdentityModelFactoryUtils.cs" />
-    <Compile Include="PersistableRepository.cs" />
+    <Compile Include="Fluent\PersistableRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueryBuilder.cs" />
+    <Compile Include="Fluent\QueryBuilder.cs" />
     <Compile Include="BaseUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
